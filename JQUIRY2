@@ -1,0 +1,4 @@
+var persistclose=1
+function closebar(){if(persistclose)
+document.cookie="remainclosed=1"
+document.getElementById("box-message").style.visibility="hidden"}
